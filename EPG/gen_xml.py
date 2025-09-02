@@ -701,4 +701,4 @@ if __name__ == '__main__':
                 {'id': '1905_xl', 'name': '初秋·电影放映厅', 'id0': 'xl', 'source': '1905'},
                 {'id': '1905_1905tv', 'name': '环球经典', 'id0': '1905tv', 'source': '1905'}
                 ]
-    asyncio.run(gen_xml(channels, 'epg0.xml'))
+    asyncio.run(gen_xml(channels, 'EPG.xml'))

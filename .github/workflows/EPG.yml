@@ -4,8 +4,7 @@ on:
   #   branches:
   #     - main
   schedule:
-    - cron: "50 6 * * *"
-    - cron: "15 16 * * *"
+    - cron: "10 20 * * *"
   workflow_dispatch:
 jobs:
   build:
@@ -23,15 +22,12 @@ jobs:
         cd ./EPG
         python3 ./gen_xml.py
         mkdir xml
-        mv epg0.xml xml
+        mv EPG.xml xml
         mv README.md xml
-        mv merge_xmltv_files.py xml
+        #mv merge_xmltv_files.py xml
     - name: Merge EPG
       run: |
         cd ./EPG/xml
-        wget http://e.erw.cc/all.xml
-        wget https://tvpass.org/epg.xml
-        python3 merge_xmltv_files.py
         gzip -kf EPG.xml
     # - name : Upload artifact
     #   uses: actions/upload-artifact@master

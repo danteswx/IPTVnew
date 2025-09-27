@@ -1,3 +1,4 @@
+name: Update cable
 on:
   schedule:
     - cron:  "15 21 * * *"

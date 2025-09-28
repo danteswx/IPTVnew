@@ -1,7 +1,7 @@
 name: Update cable
 on:
   schedule:
-    - cron:  "15 21 * * *"
+    - cron:  "55 21 * * *"
   workflow_dispatch: # 允许手动触发
 
 jobs:

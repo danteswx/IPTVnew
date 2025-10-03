@@ -22,6 +22,7 @@ jobs:
         sed -i 's/ HD//g' cable.m3u
         sed -i 's/求索纪实/求索纪录/g' cable.m3u
         sed -i 's/CHC影迷频道/CHC影迷电影/g' cable.m3u
+        sed -i 's/?profile=pass/?auth=PWgoKtvRUwpwjPsG.U7QbAtatUck&profile=pass/g' cable.m3u
 
     - name: Commit and Push changes to My Repo's TV branch
       run: |

@@ -698,7 +698,7 @@ if __name__ == '__main__':
                 {'id': 'tdm_6', 'name': '澳門體育 Ch.93', 'id0': '6', 'source': 'tdm'},
                 {'id': 'tdm_7', 'name': '澳門綜藝 Ch.95', 'id0': '7', 'source': 'tdm'},
                 {'id': 'tdm_8', 'name': '澳門 - MACAU 衛星頻道 Ch.96', 'id0': '8', 'source': 'tdm'},
-                {'id': '1905_xl', 'name': '初秋·电影放映厅', 'id0': 'xl', 'source': '1905'},
-                {'id': '1905_1905tv', 'name': '环球经典', 'id0': '1905tv', 'source': '1905'}
+#                {'id': '1905_xl', 'name': '初秋·电影放映厅', 'id0': 'xl', 'source': '1905'},
+#                {'id': '1905_1905tv', 'name': '环球经典', 'id0': '1905tv', 'source': '1905'}
                 ]
     asyncio.run(gen_xml(channels, 'EPG.xml'))

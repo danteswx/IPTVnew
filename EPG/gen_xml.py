@@ -654,7 +654,7 @@ if __name__ == '__main__':
                 {'id': '4gtv_4gtv-live620', 'name': 'HITS頻道', 'id0': '4gtv-live620', 'source': '4gtv'},
                 {'id': '4gtv_litv-longturn11', 'name': '龍華日韓台', 'id0': 'litv-longturn11', 'source': '4gtv'},
 #                {'id': '4gtv_4gtv-4gtv034', 'name': '八大精彩台', 'id0': '4gtv-4gtv034', 'source': '4gtv'},
-                {'id': '4gtv_4gtv-live145', 'name': '霹靂布袋戲', 'id0': '4gtv-live145', 'source': '4gtv'},
+#                {'id': '4gtv_4gtv-live145', 'name': '霹靂布袋戲', 'id0': '4gtv-live145', 'source': '4gtv'},
                 {'id': '4gtv_4gtv-4gtv058', 'name': '靖天戲劇台', 'id0': '4gtv-4gtv058', 'source': '4gtv'},
                 {'id': '4gtv_4gtv-4gtv045', 'name': '靖洋戲劇台', 'id0': '4gtv-4gtv045', 'source': '4gtv'},
                 {'id': '4gtv_4gtv-live027', 'name': 'CI 罪案偵查頻道', 'id0': '4gtv-live027', 'source': '4gtv'},
